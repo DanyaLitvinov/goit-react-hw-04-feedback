@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import shortid from 'shortid';
 import styles from './Statistics.module.css';
 
+
+
+
 const Statistics = ({ stat = { good: 0, neutral: 0, bad: 0 }, total = 0, positivePercentage }) => {
   return (
     <div className={styles.statistics}>
