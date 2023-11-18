@@ -10,6 +10,9 @@ function App() {
     bad: 0,
   });
 
+
+
+  
   const onLeaveFeedback = (e) => {
     const currentBtnValue = e.currentTarget.value;
     setFeedback((prevFeedback) => ({
